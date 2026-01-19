@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Корзина - UrbanStyle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>UrbanStyle</h1>
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="shop.html">Магазин</a>
+    <a href="about.html">О нас</a>
+    <a href="contact.html">Контакты</a>
+    <a href="cart.html">🛒 Корзина (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<h2>Корзина</h2>
+<ul id="cart-items"></ul>
+<p id="total"></p>
+
+<button onclick="checkout()" class="btn">Оформить заказ</button>
+
+<div id="payment-box" style="display:none;">
+  <h3>Оплата</h3>
+
+  <select id="payment-method">
+    <option value="">Выберите способ оплаты</option>
+    <option>Банковская карта</option>
+    <option>PayPal</option>
+    <option>Оплата при получении</option>
+  </select>
+
+  <input type="text" placeholder="Имя на карте">
+  <input type="text" placeholder="Номер карты">
+  <input type="text" placeholder="ММ/ГГ">
+  <input type="text" placeholder="CVV">
+
+  <button onclick="pay()">Оплатить</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

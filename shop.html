@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Магазин - UrbanStyle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="shop">
+
+<header>
+  <h1>UrbanStyle</h1>
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="shop.html">Магазин</a>
+    <a href="about.html">О нас</a>
+    <a href="contact.html">Контакты</a>
+    <a href="cart.html">🛒 Корзина (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<!-- VIDEO PUBLICITAIRE -->
+<section class="shop-video">
+  <video autoplay muted loop playsinline>
+    <source src="videos/pub.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo.
+  </video>
+
+  <div class="video-overlay">
+    <h2>UrbanStyle</h2>
+    <p>Уличный стиль для настоящей жизни</p>
+    <a href="#new" class="btn">Смотреть новинки</a>
+  </div>
+</section>
+
+
+<div class="shop-menu">
+  <a href="new.html">Новинки</a>
+  <a href="men.html">Мужское</a>
+  <a href="women.html">Женское</a>
+  <a href="child.html">Детское</a>
+  <a href="promo.html">Скидки</a>
+</div>
+
+
+<a href="javascript:history.back()" class="back-btn">← Назад</a>
+
+<h2>Новинки</h2>
+<div class="products">
+
+ <div class="product">
+    <img src="images/hoodie.jpg">
+    <h3>Nike Academy Total 90</h3>
+    <p>49€</p>
+    <button onclick="addToCart('Nike Academy Total 90', 49, 'images/hoodie.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/tshirt.jpg">
+    <h3>Nike Aura</h3>
+    <p>25€</p>
+    <button onclick="addToCart('Nike Aura', 25, 'images/tshirt.jpg')">В корзину</button>
+  </div>
+
+ <div class="product">
+    <img src="images/new1.jpg">
+    <h3>Nike Vaporfly 4</h3>
+    <p>55€</p>
+    <button onclick="addToCart('Nike Vaporfly 4', 55, 'images/new1.jpg')">В корзину</button>
+  </div>
+
+   <div class="product">
+    <img src="images/new2.jpg">
+    <h3>Nike Structure Plus</h3>
+    <p>45€</p>
+    <button onclick="addToCart('Nike Structure Plus', 45, 'images/new2.jpg')">В корзину</button>
+  </div>
+
+   <div class="product">
+    <img src="images/new3.jpg">
+    <h3>Nike Solo Swoosh</h3>
+    <p>105€</p>
+    <button onclick="addToCart('Nike Solo Swoosh', 105, 'images/new3.jpg')">В корзину</button>
+  </div>
+
+ 
+   <div class="product">
+    <img src="images/new4.jpg">
+    <h3>Nike Club</h3>
+    <p>54€</p>
+    <button onclick="addToCart('Nike Club', 54, 'images/new4.jpg')">В корзину</button>
+  </div>
+ 
+  <div class="product">
+    <img src="images/new5.jpg">
+    <h3>Nike Windrunner</h3>
+    <p>99€</p>
+    <button onclick="addToCart('Nike Windrunner', 99, 'images/new5.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/new6.jpg">
+    <h3>Nike Tiempo Ligera Pro LE</h3>
+    <p>109€</p>
+    <button onclick="addToCart('Nike Tiempo Ligera Pro LE', 109, 'images/new6.jpg')">В корзину</button>
+  </div>
+
+ <div class="product">
+    <img src="images/new7.jpg">
+    <h3>Nike </h3>
+    <p>35€</p>
+    <button onclick="addToCart('Nike ', 35, 'images/new7.jpg')">В корзину</button>
+  </div>
+
+  
+ <div class="product">
+    <img src="images/new8.jpg">
+    <h3>Nike Utility Power </h3>
+    <p>95€</p>
+    <button onclick="addToCart('Nike Utility Power', 95, 'images/new8.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/new9.jpg">
+    <h3>Jordan Air Rew </h3>
+    <p>205€</p>
+    <button onclick="addToCart('Jordan Air Rew', 205, 'images/new9.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/new10.jpg">
+    <h3>Nike Club </h3>
+    <p>205€</p>
+    <button onclick="addToCart('Nike Club', 205, 'images/new10.jpg')">В корзину</button>
+  </div>
+ 
+ <div class="product">
+    <img src="images/new11.jpg">
+    <h3>Los Angeles Lakers Courtside</h3>
+    <p>89€</p>
+    <button onclick="addToCart('Los Angeles Lakers Courtside', 89, 'images/new11.jpg')">В корзину</button>
+</div>
+
+
+ <div class="product">
+    <img src="images/new12.jpg">
+    <h3>FC Barcelona Strike 4e tenue</h3>
+    <p>49€</p>
+    <button onclick="addToCart('FC Barcelona Strike 4e tenue', 49, 'images/new12.jpg')">В корзину</button>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты - UrbanStyle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact">
+
+<header>
+  <h1>UrbanStyle</h1>
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="shop.html">Магазин</a>
+    <a href="about.html">О нас</a>
+    <a href="contact.html">Контакты</a>
+    <a href="cart.html">🛒 Корзина (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<!-- ПОИСК -->
+<div class="search-bar">
+  <input type="text" placeholder="Поиск...">
+  <button>🔍</button>
+</div>
+
+<!-- КАРТА -->
+<div class="map-container">
+  <iframe 
+    src="https://www.google.com/maps?q=Проспект строителей 7Г/Владимир&output=embed"
+    width="100%" 
+    height="350" 
+    style="border:0;" 
+    allowfullscreen 
+    loading="lazy">
+  </iframe>
+</div>
+
+<!-- КОНТАКТЫ -->
+<div class="contact-section">
+  <h2>Свяжитесь с нами</h2>
+
+  <div class="contact-box">
+    <form>
+      <input type="text" placeholder="Имя" required>
+      <input type="email" placeholder="Электронная почта" required>
+      <textarea placeholder="Ваше сообщение" required></textarea>
+      <button>Отправить</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>UrbanStyle</h3>
+      <p>32 Проспект строителей 7Г</p>
+      <p>600010 Владимир</p>
+      <p>Телефон: +7 910 681 71 62</p>
+      <p>Email: contact@urbanstyle.ru</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

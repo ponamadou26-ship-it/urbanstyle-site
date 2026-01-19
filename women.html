@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Женское - UrbanStyle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="shop">
+
+<header>
+  <h1>UrbanStyle</h1>
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="shop.html">Магазин</a>
+    <a href="about.html">О нас</a>
+    <a href="contact.html">Контакты</a>
+    <a href="cart.html">🛒 Корзина (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<h2>Женская коллекция</h2>
+
+<div class="products">
+  <div class="product">
+    <img src="images/femme1.jpg">
+    <h3>Худи женское</h3>
+    <p>53€</p>
+    <button onclick="addToCart('Худи женское', 53, 'images/femme1.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/femme2.jpg">
+    <h3>Футболка женская</h3>
+    <p>59€</p>
+    <button onclick="addToCart('Футболка женская', 59, 'images/femme2.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/femme3.jpg">
+    <h3>Куртка</h3>
+    <p>55€</p>
+    <button onclick="addToCart('Куртка', 55, 'images/femme3.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/chauf2.jpg">
+    <h3>Обувь</h3>
+    <p>45€</p>
+    <button onclick="addToCart('Обувь', 45, 'images/chauf2.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/chauf1.jpg">
+    <h3>Обувь</h3>
+    <p>23€</p>
+    <button onclick="addToCart('Обувь', 23, 'images/chauf1.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/chauf3.jpg">
+    <h3>Туфли</h3>
+    <p>39€</p>
+    <button onclick="addToCart('Туфли', 39, 'images/chauf3.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/chauf4.jpg">
+    <h3>Туфли</h3>
+    <p>19€</p>
+    <button onclick="addToCart('Туфли', 19, 'images/chauf4.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/chaussure1.jpg">
+    <h3>Обувь</h3>
+    <p>89€</p>
+    <button onclick="addToCart('Обувь', 89, 'images/chaussure1.jpg')">В корзину</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

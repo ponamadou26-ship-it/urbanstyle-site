@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Скидки - UrbanStyle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="shop">
+
+<header>
+<h1>UrbanStyle</h1>
+<nav>
+<a href="index.html">Главная</a>
+<a href="shop.html">Магазин</a>
+<a href="about.html">О нас</a>
+<a href="contact.html">Контакты</a>
+<a href="cart.html">🛒 Корзина (<span id="cart-count">0</span>)</a>
+</nav>
+</header>
+
+<h2>Скидки</h2>
+<div class="products">
+
+ <div class="product">
+    <img src="images/tshirt2.jpg">
+    <h3>Футболка White</h3>
+    <p><s>29€</s> 19€</p>
+    <button onclick="addToCart('Футболка White', 19, 'images/tshirt2.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/veste1.jpg">
+    <h3>Куртка</h3>
+    <p><s>79€</s> 69€</p>
+    <button onclick="addToCart('Куртка', 69, 'images/veste1.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/shoe4.jpg">
+    <h3>Кроссовки</h3>
+    <p><s>39€</s> 29€</p>
+    <button onclick="addToCart('Кроссовки', 29, 'images/shoe4.jpg')">В корзину</button>
+  </div>
+
+  <div class="product">
+    <img src="images/montre.jpg">
+    <h3>Часы</h3>
+    <p><s>49€</s> 39€</p>
+    <button onclick="addToCart('Часы', 39, 'images/montre.jpg')">В корзину</button>
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
